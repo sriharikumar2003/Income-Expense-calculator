@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse ;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(132, 239, 239);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(144, 246, 246);
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+input{
+    height: 30px;
+    font-size: 14px;
+    margin: 5px;
+    border-radius:15px ;
+}
+button{
+    width: 300px;
+    height: 30px;
+    align-self: center;
+    background-color: black;
+    color: white;
+    border-radius:20px ;
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+}

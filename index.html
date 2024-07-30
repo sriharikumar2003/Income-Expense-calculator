@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add income and expense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>Enter the data to log</h2>
+        <label>Type</label>
+        <select class="type" style="height: 30px; margin: 5px; border-radius: 15px;">
+            <option value="" disabled selected>Choose type...</option>
+            <option value="Income">Income</option>
+            <option value="Expense">Expense</option>
+        </select>
+        <label>Name</label>
+        <input class="name">
+        <label>Amount</label>
+        <input class="amount" type="number">
+        <button type="button" class="add">Add</button>
+    </form>
+    <div class="table">
+    <table border cellpadding = 10px>
+        <tr>
+            <th colspan="4">Accounts Sheet</th>
+        </tr>
+        <tr class="first">
+            <th>Type</th>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Options</th>
+        </tr>
+    </table>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
